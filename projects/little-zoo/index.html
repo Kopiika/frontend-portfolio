@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Red+Hat+Display:wght@300..900&display=swap" rel="stylesheet">
+	<link rel="icon" href="favicon.png" type="image/png">
+	<title>Pikku Eläintarha</title>
+</head>
+<body>
+	<main class="page">
+		<h1>Pikku Eläintarha</h1>
+	
+		<h2>Lisää uusi elain</h2>
+		<div class="add-animal__section">
+			<input id="animalName" type="text" placeholder="Eläimen nimi">
+		
+			<select id="animalType">
+				<option value="">Valitse tyyppi</option>
+				<option value="Nisäkäs">Nisäkäs</option>
+				<option value="Lintu">Lintu</option>
+				<option value="Matelija">Matelija</option>
+				<option value="Sammakkoeläin">Sammakkoeläin</option>
+				<option value="Kala">Kala</option>
+				<option value="Selkärangaton">Selkärangaton</option>
+			</select>
+		
+			<button id="addAnimal_btn" type="submit">Lisää elain</button>
+		</div>
+		
+		<h2>Hakuehdot</h2>
+		<div class="sort-animals__section">
+			<input id="search-field" type="search" placeholder="Etsi nimellä">
+		
+			<select id="filterType">
+				<option value="Kaikki">Kaikki</option>
+				<option value="Nisäkäs">Nisäkäs</option>
+				<option value="Lintu">Lintu</option>
+				<option value="Matelija">Matelija</option>
+				<option value="Sammakkoeläin">Sammakkoeläin</option>
+				<option value="Kala">Kala</option>
+				<option value="Selkärangaton">Selkärangaton</option>
+			</select>
+		
+			<button id="sort_btn" type="submit">Järjestä A-Ö</button>
+		</div>
+	
+		<ul id="animalList"></ul>
+	</main>
+
+	<script src="script.js"></script>
+</body>
+</html>

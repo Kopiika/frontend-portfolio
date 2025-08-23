@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap" rel="stylesheet" />
+	<title>Pankkiautomaatti-simulaattori</title>
+</head>
+<body>
+<div id="passwordModal" class="modal">
+	<div class="modal-content">
+		<h2>Syötä PIN-koodi</h2>
+		<input type="password" id="passwordInput" placeholder="PIN-koodi">
+		<button onclick="checkPassword()">Vahvista</button>
+		<p id="error-message" style="color: red;"></p>
+	</div>
+</div>
+
+<div id="bankApp" class="wrapper">
+		<h1>Pankkiautomaatti-simulaattori</h1>
+	
+		<div class="balance__section">
+			Oma saldo: <span id="balanceAmount">0</span> euro
+		</div>
+
+		<div class="input__section">
+			<input type="number" id="depositAmount" placeholder="Talletettava summa">
+			<button type="submit"  id="depositButton">Talleta rahaa</button>
+		</div>
+
+		<div class="output__section">
+			<input type="number" id="withdrawAmount" placeholder="Nostosumma">
+			<button type="submit" id="withdrawButton">Nosta rahaa</button>
+		</div>
+
+
+		<div id="errorMessage" class="error"></div>
+</div>
+
+
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,297 @@
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  vertical-align: top;
+}
+
+ul li {
+  list-style: none;
+  padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  block-size: 100%;
+}
+/* ______________________________________ */
+
+.wrapper{
+	
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+ }
+
+ h1{
+	font-size: 3.8rem;
+   line-height: 1.5;
+	font-weight: 700;
+	text-align: 1.2;
+	margin-bottom: 30px;
+ }
+
+ h2{
+	font-size: 1.7rem;
+	font-weight: 300;
+ }
+
+.title,
+.subtitle {
+  text-align: center;
+  color: #fce0d1;
+}
+
+
+.header{
+	position: fixed;
+	top: 0;
+	z-index: 50;
+	box-shadow: 1px 1px 13px 3px rgba(0, 0, 0, 0.2965);
+	background-color: #69013b; 
+	color: #fce0d1;
+	width: 100%;
+	height: 100px;
+}
+
+
+.header img{
+	height: 100px;
+	vertical-align: middle;
+   border-style: none;
+}
+
+.header .link{
+	cursor: pointer;
+}
+
+.hero__container {
+  display: flex;
+  justify-content: flex-end; 
+  background-image: url("image/coding-img.jpg");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero__section {
+  width: 55%;
+  padding: 160px 60px 60px 60px; 
+} 
+
+.hero__section h2{
+	margin-bottom: 50px;
+}
+
+
+.button__container{
+	display: flex;
+  justify-content: center;
+  
+}
+
+.hero__button {
+	display: inline-block;
+	font-weight: 400;
+	color: #fce0d1;
+	text-align: center;
+	vertical-align: middle;
+	padding: .375rem .75rem;
+	font-size: 1.8rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	background-color: #69013B;
+   margin-top: 2px;
+   margin-bottom: 2px;
+   border: 1px solid rgba(255, 255, 255, 0.2552);
+}
+
+a.hero__button:hover{
+	background-color: #b10262;
+}
+
+a.hero__button:active{
+	background-color: #fce0d1;
+	color:#69013B;
+}
+
+.about__section h2{
+	color: #69013B;
+	font-size: 3.2rem;
+   line-height: 62px;
+	font-weight: 600;
+	text-align: 1.2;
+	margin-bottom: 30px;
+	text-align: center;
+	border-bottom: 1px solid #dee2e6;
+}
+
+.about__container{
+	background-color: #fce0d1;
+	width: 100%;
+	padding: 80px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.about__section p{
+	color: #212529;
+	font-size: 1rem;
+	line-height: 28px;
+}
+
+.about__text{
+	margin-bottom: 20px;
+}
+
+.about__section h3{
+	margin-bottom: 20px;
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #69013B;
+}
+
+.about__list{
+margin-bottom: 20px;
+}
+
+.about__item{
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 28px;
+	color: #69013B;
+	margin-bottom: 10px;
+}
+
+.about__sublist {
+	padding-left: 20px;
+	
+ }
+ 
+ .about__sublist li {
+	position: relative; 
+	padding-left: 20px; 
+	color: #212529;
+	font-size: 1rem;
+	font-weight: normal;
+	line-height: 28px; 
+ }
+ 
+ 
+ .about__sublist li::before {
+	content: "\2022"; /* Unicode для маркера (круглий маркер) */
+	font-size: 24px; /* Розмір маркера */
+	color: #69013b; /* Колір маркера */
+	position: absolute; /* Позиціонуємо маркер */
+	left: 0; /* Позиціонуємо маркер зліва від тексту */
+	top: 50%;
+	transform: translateY(-50%); /* Центруємо маркер по вертикалі */
+ }
+
+
+ .sidebar__title {
+	font-size: 1.125rem;
+   font-weight: 400;
+   line-height: 1.2;
+	padding-left: 30px; /* Створюємо місце для іконки */
+	position: relative;
+	margin-bottom: 16px;
+ }
+ 
+.title__degree::before,
+.title__duration::before,
+.title__person::before,
+.title__date::before,
+.title__application::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 20px; /* Ширина іконки */
+	height: 20px; /* Висота іконки */
+	background-size: cover; /* Забезпечуємо коректне масштабування SVG */
+ }
+
+ .title__degree::before {
+	background-image: url('image/icon_degree.svg');
+}
+
+.title__duration::before {
+	background-image: url('image/icon_duration.svg');
+}
+
+.title__person::before {
+	background-image: url('image/icon_person.svg');
+}
+
+.title__date::before {
+	background-image: url('image/icon_period.svg');
+}
+
+.title__application::before {
+	background-image: url('image/icon_application.svg');
+}
+
+
+ .about__container{
+	display: flex;
+
+ }
+
+ .about__sidebar{
+	color: #fff;
+	background-color: #69013b;
+	margin: 0px 40px;
+	padding: 32px 40px;
+	width: 50vw;
+ }
+
+ .about__sidebar p{
+	font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.5;
+	 margin-top: 0;
+	 margin-bottom: 24px;
+ }
+
+ .bsn-footer{
+	padding-top: 100px;
+    background-color: #69013B;
+    padding-bottom: 100px;
+ }
+
+ .footer__text p{
+	color: #fce0d1;
+	text-align: center;
+	font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+	 font-size: 1rem;
+ }

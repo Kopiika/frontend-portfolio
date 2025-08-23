@@ -1,0 +1,165 @@
+/* reset css */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+ }
+ a {
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+ }
+ 
+ img {
+	vertical-align: top;
+ }
+ 
+ ul li {
+	list-style: none;
+	padding-left: 0;
+ }
+ 
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+	font-family: inherit;
+	font-size: inherit;
+ }
+ 
+ html,
+ body {
+	block-size: 100%;
+ }
+ /* ______________________________________ */
+ 
+
+*{
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body{
+	background-color: rgb(35, 103, 71);
+}
+
+.container{
+	width: 100%;
+	max-width: 350px;
+	margin: 50px auto;
+	padding: 0 15px;
+}
+
+.form__section{
+	background-color: white;
+	padding: 20px;
+	border-radius: 1%;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.form__group{
+	/* display: flex;
+	margin-bottom: 20px;  */
+	/* max-width: 400px;
+	margin: 0 auto; */
+}
+
+
+
+input{
+	width: 100%;
+	font-size: 16px;
+	margin-bottom: 10px;
+	border: 1px solid rgb(141, 141, 141);
+	border-radius: 4px;
+	padding: 5px;
+}
+
+label{
+	display: block;
+	text-align: left;
+	font-size: 10px;
+	color: rgb(141, 141, 141);
+	margin-bottom: 10px;
+}
+
+h2{
+	
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+
+h3{
+	font-size: 14px;
+	color: white;
+}
+
+a{
+	color: rgb(251, 127, 80);
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.form__section p{
+	text-align: center;
+	font-size: 14px;
+}
+
+.text.small{
+	font-size: 11px;
+}
+
+
+
+
+
+.container__btn{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+.container__btn button{
+	width: 75%; 
+	text-transform: uppercase;
+	background-color: rgb(251, 127, 80);
+	color: white;
+	padding: 5px;
+	border: none;
+	border-radius: 4px;
+}
+
+button:hover{
+	box-shadow: 1px 1px 5px rgb(33, 34, 34);
+	
+}
+
+button:active{
+	color: rgb(251, 127, 80);
+	background-color: white;
+}
+
+.error-message {
+	display: none;
+	background-color: #ffe0e0;
+	color: #d10000;
+	border: 1px solid #d10000;
+	padding: 10px;
+	margin-bottom: 15px;
+	border-radius: 4px;
+	font-size: 14px;
+	text-align: center;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+.error-message.show {
+	display: block;
+	opacity: 1;
+}

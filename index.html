@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css">
+  <title>My Portfolio</title>
+</head>
+<body>
+  <div class="wrapper">
+  	<!-- Header -->
+	  <header id="site-header" class="header">
+	    <div class="header__container">
+	    	<div class="header__body">
+	    		<a href="index.html" class="header__logo"> Eleonora <span>Kopiika</span></a>
+					<nav id="nav-menu" class="header__menu menu">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#about" class="menu__link">About Me</a>
+							</li>
+							<li class="menu__item">
+								<a href="./projects-page/projects.html" class="menu__link">Portfolio</a>
+							</li>
+							<li class="menu__item">
+								<a href="#contacts" class="menu__link">Contacts</a>
+							</li>
+						</ul>
+					</nav>
+					 <div class="header__actions">
+						<!-- Dark/Light Theme -->
+						<button type="button" class="page__theme" aria-label="Toggle Theme">
+						</button>
+					 </div>
+					 <!-- Menu Burger Button -->
+					<div id="burger" class="burger">
+						<span></span>
+						<span></span>
+						<span></span>
+					 </div>
+	    	</div>
+	    </div>
+	  </header>
+	
+	<main class="page">
+		<!-- Hero Section -->
+		<section class="page__hero hero">
+			<div class="hero__container">
+				<div class="hero__body">
+					<h2 class="hero__subtitle"> Software Developer</h2>
+					<h1 class="hero__title">Hi, I'm <span>Eleonora</span></h1>
+					<div class="typewriter-container">
+						<span id="typewriter-text" class="hero__text"></span>
+						<span class="cursor">|</span>
+					 </div>
+					<div class="hero-links">
+						<div class="button"><a href="#">See My Work</a></div>
+		
+						<div class="social-icons">
+							<a href="https://github.com/Kopiika" target="_blank" aria-label="GitHub">
+							  <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img">
+								 <title>GitHub</title>
+								 <path d="M12 0.297C5.373 0.297 0 5.67 0 12.297c0 5.292 3.438 9.773 8.207 11.387.6.11.793-.26.793-.577v-2.234c-3.338.726-4.033-1.612-4.033-1.612-.547-1.387-1.336-1.756-1.336-1.756-1.093-.747.084-.732.084-.732 1.205.084 1.84 1.236 1.84 1.236 1.074 1.835 2.813 1.304 3.5.996.108-.777.42-1.305.763-1.605-2.665-.303-5.467-1.332-5.467-5.93 0-1.31.468-2.382 1.236-3.22-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.3 1.23a11.5 11.5 0 0 1 3-.403c1.02.005 2.045.138 3 .403 2.29-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.873.118 3.176.77.838 1.235 1.91 1.235 3.22 0 4.61-2.807 5.625-5.48 5.922.43.37.823 1.102.823 2.222v3.293c0 .319.192.694.8.576C20.565 22.066 24 17.586 24 12.297 24 5.67 18.627 0.297 12 0.297Z"/>
+							  </svg>
+							</a>
+						 
+							<a href="https://linkedin.com/in/eleonora-kopiika/" target="_blank" aria-label="LinkedIn">
+							  <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img">
+								 <title>LinkedIn</title>
+								 <path d="M22.23 0H1.77C.79 0 0 .774 0 1.727V22.27C0 23.225.79 24 1.77 24H22.23C23.2 24 24 23.225 24 22.27V1.727C24 .774 23.2 0 22.23 0ZM7.12 20.452H3.56V9H7.12V20.452ZM5.34 7.436a2.073 2.073 0 1 1 .002-4.147 2.073 2.073 0 0 1-.002 4.147Zm15.112 13.016h-3.56v-5.543c0-1.32-.03-3.02-1.84-3.02-1.842 0-2.124 1.44-2.124 2.925v5.638h-3.56V9h3.42v1.56h.05c.48-.905 1.652-1.84 3.4-1.84 3.64 0 4.31 2.395 4.31 5.51v6.222h-.001Z"/>
+							  </svg>
+							</a>
+						 </div>
+					</div>
+				</div>
+					<img src="image/avatar2.png" alt="Hero Image" class="hero__image" >
+			</div>
+
+		 </section>
+
+		  <!-- About Section -->
+		  <section id="about" class="page__about about">
+		    <div class="about__container">
+				<img class="about__image" src="image/photo.webp" alt="eleonora photo">
+		    	<div class="about__body">
+		    		<h2 class="about__title">About Me</h2>
+				    <div class="about__text">
+				    	<p>I am a passionate beginner <span>web developer</span> focused on building clean, user-friendly applications. Currently, I'm strengthening my skills in software development, with a solid foundation in <span>HTML</span>, <span>CSS</span>, and <span>JavaScript</span>. I also have experience in software testing and debugging. My goal is to gain hands-on experience and improve my coding skills in both front-end and back-end development.</p>
+					    <p>Away from the keyboard? I'm likely in the woods, tea in hand, sweating in a sauna, or butchering Finnish verbs. 😄</p>
+			    	</div>
+		    	</div>
+		    </div>
+		  </section>
+		
+		  <!-- Tech Stack -->
+		  <section class="stack --anim">
+		    <div class="stack__container">
+		    	<h2 class="stack__title">Tech skills</h2>
+				<div class="stack__items">
+					<img class="stack__item" src="image/icons/html5.svg" alt="html5">
+					<img class="stack__item" src="image/icons/css3.svg" alt="css3">
+					<img class="stack__item" src="image/icons/js-brands.svg" alt="JS">
+					<img class="stack__item" src="image/icons/react-brands.svg" alt="react">
+					<img class="stack__item" src="image/icons/git-alt-brands.svg" alt="git">
+					<img class="stack__item" src="image/icons/sass-brands.svg" alt="sass">
+					<img class="stack__item" src="image/icons/figma-brands.svg" alt="figma">
+				</div>
+		    </div>
+		  </section>
+		
+		  <!-- Projects Section -->
+		  <section id="projects">
+		    <div class="projects__container">
+		    	<h2 class="projects__title">Last Projects</h2>
+
+			    <div class="projects__cards">
+
+			    	<div class="project-card">
+						<div class="project__image"><img src="image/projects/project-9.webp" alt="Multi-step form screenshot"></div>
+				      <h3>Multi-step form</h3>
+				      <div class="project__details">
+				      	<p><strong>Tools:</strong> HTML, CSS, JavaScript</p>
+					      <p>This is a solution to the Multi-step form challenge on Frontend Mentor.</p>
+					      <p><a href="https://github.com/Kopiika/multi-step-form?tab=readme-ov-file" target="_blank">💻 Code</a> | <a href="https://kopiika.github.io/multi-step-form/">🔗 Demo</a></p>
+				      </div>
+				    </div>
+
+					 <div class="project-card">
+						<div class="project__image"><img src="image/projects/project-8.webp" alt="Pancakes orders site screenshot"></div>
+				      <h3>Pancakes orders site</h3>
+				      <div class="project__details">
+				      	<p><strong>Tools:</strong> HTML, CSS, JS, LocalStorage, DOM API</p>
+					      <p>A web application for creating and managing pancake orders with local data storage.</p>
+					      <p><a href="https://github.com/Kopiika/pannukakku-order-client" target="_blank">💻 Code</a> | <a href="https://kopiika.github.io/pannukakku-order-client/" target="_blank">🔗 Demo</a></p>
+				      </div>
+				    </div>
+
+					 <div class="project-card">
+						<div class="project__image"><img src="image/projects/project-4.webp" alt="Little Zoo web project screenshot"></div>
+				      <h3>Pikku Eläintarha (Little Zoo)</h3>
+				     <div class="project__details">
+				     	 <p><strong>Tools:</strong> HTML, CSS, JavaScript</p>
+					      <p>A small web project for practicing arrays, objects, events,and DOM manipulation. It includes features for adding, filtering, searching, sorting, and deleting animals.</p>
+							<p><a href="#" target="_blank">💻 Code</a> | <a href="../projects/little-zoo/index.html" target="_blank">🔗 Demo</a></p>
+				     </div>
+				    </div>
+			    </div>
+		    </div>
+
+			 <div class="modal" id="project-modal">
+				<div class="modal__overlay"></div>
+				<div class="modal__content">
+				  <button class="modal__close" aria-label="Close Modal">&times;</button>
+				  <div class="modal__details">
+					 <img src="" alt="Project Image" class="modal__image">
+					 <h3 class="modal__title"></h3>
+					 <p class="modal__description"></p>
+					 <p class="modal__tools"></p>
+					 <p class="modal__links"></p>
+				  </div>
+				</div>
+			 </div>
+		  </section>	
+	</main>
+
+	  <!-- Contact Footer -->
+	  <footer id="contacts" class="footer">
+	   <div class="footer__container">
+	   	<div class="footer__text">
+	   		 <h2 class="footer__title">Contact Me</h2>
+			    <p class="text--bold">Want to work together or say hi?</p>
+			    <p>Email me at <a href="mailto:eleonora.kopiika@gmail.com">eleonora.kopiika@gmail.com</a> or use this form:</p>
+	   	</div>
+		    <form id="contactForm">
+				<div id="errorMessage" class="error-message"></div>
+		      <input id="username" type="text" placeholder="Your Name" >
+		      <input id="email" type="email" placeholder="Your Email" >
+		      <textarea id="message" placeholder="Your Message" ></textarea>
+		      <button id="contacts__btn" type="submit">Send message</button>
+		    </form>
+	   </div>
+		<div class="footer__copyright">Copyright © Eleonora Kopiika 2025</div>
+	  </footer>
+
+	  <button id="scrollToTopBtn" title="Back to top">↑</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
