@@ -8,7 +8,7 @@ This project was created as part of an assignment to practice **HTML, CSS, and J
 ---
 ## 📸 Preview
 
-![Preview](image/Screenshot.png)
+![Preview](image/screenshot.png)
 
 ---
 
