@@ -68,3 +68,25 @@ Here are some of the projects showcased in this portfolio:
 ├── script.js # JavaScript for interactivity
 └── image/ # Folder containing screenshots and assets
 ```
+---
+
+## 🤝 How to Contribute
+
+1. Fork the project  
+2. Create a feature branch: `git checkout -b feature/my-new-feature`  
+3. Commit your changes: `git commit -am 'Add some feature'`  
+4. Push to the branch: `git push origin feature/my-new-feature`  
+5. Open a Pull Request – I’ll review and provide feedback!  
+
+---
+
+## 📞 Contact
+
+Feel free to reach out:
+
+- GitHub: [@Kopiika](https://github.com/Kopiika)  
+- LinkedIn: [Eleonora Kopiika](https://www.linkedin.com/in/eleonora-kopiika/)    
+
+---
+
+⭐️ *Thanks for visiting my portfolio repository!*
