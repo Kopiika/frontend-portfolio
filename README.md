@@ -1,40 +1,70 @@
-# 👨‍💻 Frontend Portfolio
+# Frontend Portfolio
 
-Welcome to my personal frontend portfolio, built with **HTML5**, **CSS3**, and **Vanilla JavaScript**. This project showcases my skills, experience, and recent projects.
+A clean and minimalist frontend portfolio built with **HTML**, **CSS**, and **Vanilla JavaScript**.  
+This project highlights my front-end development skills through real-world examples and responsive layouts.
+
+---
+
+## ✨ Features
+
+- **Responsive Design** – works seamlessly on desktop, tablet, and mobile devices  
+- **Modern UI/UX** – clean, minimalist layout with smooth scrolling and animations  
+- **Interactive Elements** – modal windows, back-to-top button, theme toggle  
+- **Projects Showcase** – CSS Grid gallery with project details  
+- **Lightweight Tech Stack** – built with HTML, CSS, and vanilla JavaScript  
+
+---
 
 ## 🛠️ Technologies Used
 
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
+![Responsive Design](https://img.shields.io/badge/-Responsive-4CAF50?style=for-the-badge)
 
-## 🚀 Features
+---
 
-- **Responsive Design**: Optimized for mobile and desktop views.
-- **Dark/Light Mode**: Toggle between dark and light themes.
-- **Multi-language Support**: Available in English, Ukrainian, and German.
-- **Interactive Elements**: Showcases dynamic content and animations.
+## 📸 Preview
 
-## 📸 Project Preview
+Screenshots of the current layout (homepage and projects page):
 
-![Portfolio Screenshot](./screenshot.png)
+![Homepage Preview](./image/screenshots/screenshot1.webp)  
+![Projects Page Preview](./image/screenshots/screenshot4.webp)  
 
-## 🔗 Live Demo
+---
 
-You can view the live version of this portfolio at:
+## 🚀 Live Demo
 
-👉 [https://kopiika.github.io/frontend-portfolio/](https://kopiika.github.io/frontend-portfolio/)
+Check out the live version of the portfolio hosted on GitHub Pages:
 
-## 📂 Projects Featured
+👉 [frontend-portfolio](https://kopiika.github.io/frontend-portfolio/)
 
-- **Project 1**: Description of the first project.
-- **Project 2**: Description of the second project.
-- **Project 3**: Description of the third project.
+---
 
-## 📞 Contact Me
+## 📂 Projects Included
 
-Feel free to reach out through the following platforms:
+Here are some of the projects showcased in this portfolio:  
 
-- [LinkedIn](https://www.linkedin.com/in/yourprofile)
-- [GitHub](https://github.com/Kopiika)
-- Email: your.email@example.com
+- 🎨 [Landing Page](https://kopiika.github.io/landing-page/)  
+  *HTML, CSS* – Responsive landing page with a modern layout and smooth animations.  
+
+- 🎬 [Movie App](https://kopiika.github.io/movie-app/)  
+  *HTML, CSS, JS (API)* – A movie search app using the OMDb API with dynamic results rendering.  
+
+- 🛒 [Mini E-Commerce](https://kopiika.github.io/ecommerce-app/)  
+  *HTML, CSS, JS (localStorage)* – A simple e-commerce demo with shopping cart functionality.  
+
+- 📊 [Dashboard UI](https://kopiika.github.io/dashboard-ui/)  
+  *HTML, CSS, JS* – A responsive dashboard interface with charts and widgets.  
+
+---
+
+## 📂 Project Structure
+```bash
+├── index.html # Homepage with last projects section
+├── projects.html # Page listing full project portfolio
+├── style.css # Main stylesheet for layout and themes
+├── reset.css # CSS reset to normalize browsers
+├── script.js # JavaScript for interactivity
+└── image/ # Folder containing screenshots and assets
+```
