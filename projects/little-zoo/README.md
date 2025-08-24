@@ -5,6 +5,8 @@ This is a small project where we practice **arrays, objects, loops, conditions, 
 It’s written in **HTML, CSS, and JavaScript** and shows how to create an interactive webpage where you can manage a list of animals.  
 
 ---
+## 📸 Preview
+
 ![Preview](image/screenshot.png)
 ---
 

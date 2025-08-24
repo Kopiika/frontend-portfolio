@@ -6,7 +6,7 @@ Users can type a **yes/no question**, click **Ask**, and the ball will respond w
 This project was created as part of an assignment to practice **HTML, CSS, and JavaScript**, with a focus on **CSS animations** and DOM manipulation.  
 
 ---
-## 📸 Preview  
+## 📸 Preview
 
 ![Preview](image/screenshot.png)
 
