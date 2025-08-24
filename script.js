@@ -63,7 +63,7 @@ let letterIndex = 0;
 let isDeleting = false;
 
 function type() {
-  const currentPhrase = phrases[phraseIndex];
+  const currentPhrase = Array.from(phrases[phraseIndex]);
   
   if (isDeleting) {
     letterIndex--;
@@ -71,7 +71,7 @@ function type() {
     letterIndex++;
   }
 
-  el.textContent = currentPhrase.substring(0, letterIndex);
+  el.textContent = currentPhrase.slice(0, letterIndex).join("");
 
   let speed = isDeleting ? 40 : 100;
 
@@ -133,14 +133,14 @@ document.addEventListener('DOMContentLoaded', () => {
 	  card.addEventListener('click', () => {
 		 const image = card.querySelector('img')?.src;
 		 const title = card.querySelector('h3')?.textContent;
-		 const description = card.querySelectorAll('p')[1]?.textContent || '';
-		 const tools = card.querySelectorAll('p')[0]?.textContent || '';
+		 const description = card.querySelectorAll('p')[1]?.innerHTML || '';
+		 const tools = card.querySelectorAll('p')[0]?.innerHTML || '';
 		 const links = card.querySelectorAll('p')[2]?.innerHTML || '';
  
 		 modalImage.src = image;
 		 modalTitle.textContent = title;
-		 modalDescription.textContent = description;
-		 modalTools.textContent = tools;
+		 modalDescription.innerHTML = description;
+		 modalTools.innerHTML = tools;
 		 modalLinks.innerHTML = links;
  
 		 modal.style.display = 'block';

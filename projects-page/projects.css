@@ -242,7 +242,6 @@ section{
 
 .project__details{
 	display: none;
-	
 }
 
 .modal {
@@ -265,6 +264,8 @@ section{
  .modal__content {
 	position: relative;
 	max-width: 600px;
+	max-height: 90vh;
+	overflow-y: auto;
 	margin: 5% auto;
 	background: #fff;
 	padding: 25px;
@@ -284,8 +285,22 @@ section{
 	font-size: 20px;
  }
 
+ .modal__description a{
+	font-weight: 600;
+	cursor: pointer;
+	transition: color 0.3s ease;
+ }
+
+ .modal__description a:hover{
+	color: rgb(81, 168, 150);
+ }
+
  .modal__tools{
 	font-style: italic;
+ }
+
+ .modal__tools span{
+	font-weight: 600;
  }
 
  .modal__links a{

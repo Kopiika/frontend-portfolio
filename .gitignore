@@ -1,0 +1,12 @@
+# Visual Studio Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Build output directories
+dist/
+build/
+
+# Log files
+*.log

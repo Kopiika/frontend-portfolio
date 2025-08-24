@@ -491,9 +491,23 @@ section{
 	color: rgb(81, 168, 150);
 	font-size: 20px;
  }
+ 
+ .modal__description a{
+	font-weight: 600;
+	cursor: pointer;
+	transition: color 0.3s ease;
+ }
+
+ .modal__description a:hover{
+	color: rgb(81, 168, 150);
+ }
 
  .modal__tools{
 	font-style: italic;
+ }
+
+ .modal__tools span{
+	font-weight: 600;
  }
 
  .modal__links a{
