@@ -7,11 +7,11 @@ This project highlights my front-end development skills through real-world examp
 
 ## ✨ Features
 
-- **Responsive Design** – works seamlessly on desktop, tablet, and mobile devices  
-- **Modern UI/UX** – clean, minimalist layout with smooth scrolling and animations  
-- **Interactive Elements** – modal windows, back-to-top button, theme toggle  
-- **Projects Showcase** – CSS Grid gallery with project details  
-- **Lightweight Tech Stack** – built with HTML, CSS, and vanilla JavaScript  
+- **Responsive Design** – works seamlessly on desktop, tablet, and mobile devices.  
+- **Modern UI/UX** – clean, minimalist layout with smooth scrolling and animations.  
+- **Interactive Elements** – modal windows, back-to-top button, theme toggle.  
+- **Projects Showcase** – CSS Grid gallery with project details.  
+- **Lightweight Tech Stack** – built with HTML, CSS, and vanilla JavaScript.  
 
 ---
 
@@ -45,28 +45,90 @@ Check out the live version of the portfolio hosted on GitHub Pages:
 
 Here are some of the projects showcased in this portfolio:  
 
-- 🎨 [Landing Page](https://kopiika.github.io/landing-page/)  
-  *HTML, CSS* – Responsive landing page with a modern layout and smooth animations.  
+- 🎱 [Magic 8 Ball Simulator](https://github.com/Kopiika/frontend-portfolio/tree/main/projects/magic8ball-simulator)  
+  *HTML, CSS, JavaScript* – Interactive Magic 8 Ball with random answers, CSS animations, and DOM manipulation.  
 
-- 🎬 [Movie App](https://kopiika.github.io/movie-app/)  
-  *HTML, CSS, JS (API)* – A movie search app using the OMDb API with dynamic results rendering.  
+- 🍽️🥞 [Pancakes orders site](https://github.com/Kopiika/pannukakku-order-client)  
+  *HTML, CSS, JavaScript* – Responsive pancake ordering app with customization, toppings, and order submission.  
 
-- 🛒 [Mini E-Commerce](https://kopiika.github.io/ecommerce-app/)  
-  *HTML, CSS, JS (localStorage)* – A simple e-commerce demo with shopping cart functionality.  
+- 🥞 [Pancakes admin dashboard](https://github.com/Kopiika/pannukakku-admin)  
+  *HTML, CSS, JavaScript* – Admin dashboard for managing pancake orders with search, sort, and localStorage.  
 
-- 📊 [Dashboard UI](https://kopiika.github.io/dashboard-ui/)  
-  *HTML, CSS, JS* – A responsive dashboard interface with charts and widgets.  
+- 🦊🐻🦅 [Little Zoo](https://github.com/Kopiika/frontend-portfolio/tree/main/projects/little-zoo)  
+  *HTML, CSS, JavaScript* – Mini animal tracking app practicing arrays, objects, loops, and DOM manipulation.  
+
+- 🏦 [Bank ATM Simulator](https://github.com/Kopiika/frontend-portfolio/tree/main/projects/bank-atm-simulator)  
+  *HTML, CSS, JavaScript* – Responsive ATM simulator with PIN login, balance check, deposits, and withdrawals.  
+
+- 📝 [Newsletter sign up form](https://github.com/Kopiika/frontend-portfolio/tree/main/projects/newsletter-sign-up-form)  
+  *HTML, CSS, JavaScript* – Responsive sign-up form with styling and client-side validation.  
+
+- 🎶🧩 [FlexFest 2025 Website](https://github.com/Kopiika/frontend-portfolio/tree/main/projects/flexfest-2025-website)  
+  *HTML, CSS* – Responsive festival landing page using Flexbox and CSS Grid.
+
+- 🛒🧾 [Order Summary Component](https://github.com/Kopiika/frontend-mentor-order-summary-component?tab=readme-ov-file)  
+  *HTML, CSS* – Responsive Order Summary Component with semantic structure and visual accuracy.  
+
+- 📝➡️✅ [Multi-step form](https://github.com/Kopiika/multi-step-form?tab=readme-ov-file)  
+  *HTML, CSS, JavaScript* – Multi-step form with responsive layout, dynamic content, validation, and interactive UI feedback.  
 
 ---
 
 ## 📂 Project Structure
 ```bash
-├── index.html # Homepage with last projects section
-├── projects.html # Page listing full project portfolio
-├── style.css # Main stylesheet for layout and themes
-├── reset.css # CSS reset to normalize browsers
-├── script.js # JavaScript for interactivity
-└── image/ # Folder containing screenshots and assets
+frontend-portfolio/
+├── index.html                 # Homepage with Last Projects section
+├── style.css                  # Main stylesheet for homepage layout and themes
+├── reset.css                  # CSS reset to normalize browsers
+├── script.js                  # JavaScript for homepage interactivity
+├── projects-page/             # Folder for the full projects page
+│   ├── projects.html          # Page listing full project portfolio
+│   ├── projects.css           # CSS specific for projects page
+│   └── projects.js            # JS specific for projects page
+│
+├── projects/                  # Folder containing individual project folders
+│   ├── bank-atm-simulator/
+│   │   ├── index.html
+│   │   ├── style.css          
+│   │   ├── script.js
+│   │   ├── image/             
+│   │   └── README.md
+│   │
+│   ├── flexfest-2025-website/
+│   │   ├── index.html
+│   │   ├── style.css          
+│   │   ├── image/
+│   │   └── README.md
+│   │
+│   ├── little-zoo/
+│   │   ├── index.html
+│   │   ├── style.css          
+│   │   ├── script.js
+│   │   ├── image/
+│   │   └── README.md
+│   │
+│   ├── magic8ball-simulator/  
+│   │   ├── index.html
+│   │   ├── style.css          
+│   │   ├── script.js
+│   │   ├── image/
+│   │   └── README.md
+│   │
+│   ├── newsletter-sign-up-form/
+│   │   ├── index.html
+│   │   ├── style.css          
+│   │   ├── script.js
+│   │   ├── screenshot.png
+│   │   └── README.md
+│   │
+│   └── web-developer-landing-page/
+│       ├── index.html
+│       ├── style.css          
+│       ├── image/
+│       └── README.md
+│
+├── image/                     # General screenshots and assets for portfolio
+└── README.md                  # Main portfolio documentation
 ```
 ---
 
