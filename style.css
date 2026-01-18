@@ -11,15 +11,6 @@ html.dark body {
 	background-color: rgb(20, 31, 48);
 }
 
-html.dark .stack__item{
-	border-radius: 50%;
-	width: 52px;
-	height: 52px;
-	padding: 5px;
-	background-color: rgb(236, 234, 233);
-	
-}
-
 html.light body {
 	background-color: rgb(227, 226, 226);
 	color: rgb(33, 33, 33);
@@ -58,8 +49,8 @@ html.light .page__theme{
 	z-index: 50;
 	width: 100%;
 }
-.header__container{
-	max-width: 1200px;
+.header__wrapper{
+	max-width: 1300px;
 	margin: 0 auto;
 	padding: 0 15px;
 }
@@ -349,13 +340,17 @@ section{
 }
 .stack__items{
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	flex-wrap: wrap;
-	gap: 30px;
+	gap: 40px;
 }
 
 .stack__item{
-	max-width: 52px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
 	opacity: 0;
 	transition: all 0.1s;
 	transform: scale(0);
@@ -399,6 +394,27 @@ section{
 
 .--animate .stack__item:nth-child(7) {
 	transition-delay: 0.7s;
+}
+
+.--animate .stack__item:nth-child(8) {
+	transition-delay: 0.8s;
+}
+
+.--animate .stack__item:nth-child(9) {
+	transition-delay: 0.9s;
+}
+
+.--animate .stack__item:nth-child(10) {
+	transition-delay: 1.0s;
+}
+.--animate .stack__item:nth-child(11) {
+	transition-delay: 1.1s;
+}
+.--animate .stack__item:nth-child(12) {
+	transition-delay: 1.2s;
+}
+.--animate .stack__item:nth-child(13) {
+	transition-delay: 1.3s;
 }
 
 /* projects */

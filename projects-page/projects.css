@@ -12,14 +12,6 @@ html.dark body {
 	background-color: rgb(20, 31, 48);
 }
 
-html.dark .stack__item{
-	border-radius: 50%;
-	width: 52px;
-	height: 52px;
-	padding: 5px;
-	background-color: rgb(236, 234, 233);
-	
-}
 
 html.light body {
 	background-color: rgb(227, 226, 226);
@@ -59,8 +51,8 @@ html.light .page__theme{
 	z-index: 50;
 	width: 100%;
 }
-.header__container{
-	max-width: 1200px;
+.header__wrapper{
+	max-width: 1300px;
 	margin: 0 auto;
 	padding: 0 15px;
 }
@@ -141,10 +133,7 @@ html.light .page__theme{
 	border-radius: 2px;
  }
 
-section{
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
+
 
 [class*="__container"]{
 	max-width: 1200px;
@@ -194,6 +183,14 @@ section{
  }
 
 /* projects */
+section{
+	padding-top: 150px;
+}
+.projects__wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
 .projects__title{
 	text-align: center;
 	font-weight: 700;
