@@ -1,0 +1,51 @@
+/* tech stack */
+.stack__title{
+	text-align: center;
+	font-weight: 700;
+	font-size: 1.5rem;
+	letter-spacing: 2px;
+
+	opacity: 0;
+	transform: translate(0px, 50%);
+	transition: all 0.1s;
+}
+
+.stack__title:not(:last-child){
+	margin-bottom: 60px;
+}
+.stack__items{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+
+.stack__item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	opacity: 0;
+	transform: scale(0.5);
+
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease;
+
+  transition-delay: calc(var(--i, 0) * 0.1s);
+  will-change: transform, opacity;
+}
+
+/* animate */
+.--animate .stack__title {
+	transition: all 0.5s;
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.--animate .stack__item {
+	opacity: 1;
+	transform: scale(1);
+}
+

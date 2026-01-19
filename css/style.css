@@ -1,0 +1,174 @@
+@import url("reset.css");
+@import url("header.css");
+@import url("hero.css");
+@import url("toTopBtn.css");
+@import url("about.css");
+@import url("stack.css");
+@import url("last-projects.css");
+@import url("footer.css");
+
+body{
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	transition: all 0.5s ease 0s;
+}
+
+html.dark body {
+	color:rgb(236, 234, 233);
+	background-color: rgb(20, 31, 48);
+}
+
+html.light body {
+	background-color: rgb(227, 226, 226);
+	color: rgb(33, 33, 33);
+}
+
+.page__theme {
+	width: 26px;
+	height: 26px;
+	border: none;
+	cursor: pointer;
+}
+html.dark .page__theme{
+	background: url('../image/sun.svg') center / contain no-repeat;
+}
+html.light .page__theme{
+	background: url('../image/moon.svg') center / contain no-repeat;
+}
+
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	overflow: clip;
+}
+
+.wrapper >main{
+	flex-grow: 1;
+}
+
+section{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+[class*="__container"]{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+@media (max-width: 768px) {
+	.header__menu {
+	  display: none;
+	  flex-direction: column;
+	  background: rgb(81, 168, 150, 0.9);
+	  border-radius: 0 0 20px 20px;
+	  position: absolute;
+	  right: 30px;
+	  max-width: 200px;
+	  padding: 1rem;
+	  font-size: 1.9rem;
+	  line-height: 1.5;
+	  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+	  transition: top 0.3s ease;
+	}
+ 
+	.header__menu.active {
+	  display: flex;
+	  z-index: 0;
+	}
+ 
+	.burger {
+	  display: flex;
+	}
+
+	.menu__link:hover{
+		color: rgb(236, 234, 233);
+	}
+
+	.header__actions{
+		justify-self: end;
+	}
+
+	.header__logo{
+		font-size: 1rem;
+	}
+
+	.hero{
+		min-height: auto;
+		padding-bottom: 0px;
+	}
+
+	.hero__container{
+		display: flex;
+		flex-direction: column-reverse;
+		margin-top: 40px;
+		margin-bottom: 30px;
+	}
+
+	.hero-links{
+		margin-top: 30px;
+	}
+
+	.hero__body{
+		width: 100%;
+		row-gap: 10px;
+		margin-top: 20px;
+	}
+
+	.hero__subtitle{
+		font-size: 1.3rem;
+		letter-spacing: 2px;
+	}
+	
+	.typewriter-container {
+		font-size: 1rem;
+	 }
+	 
+
+	.about__container{
+		display: flex;
+		flex-direction: column;
+		padding: 0 30px;
+	}
+
+	.about__title{
+		text-align: center;
+	}
+
+	.about__image{
+		display: none;
+	}
+
+	[class*="__container"] {
+		font-size: 1.8rem;
+	}
+
+	[class*="__title"] {
+		font-size: 2rem;
+	}
+
+	.projects__cards{
+		display: flex;
+		flex-direction: column;
+		gap: 50px;
+	}
+
+	.footer__container{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		padding: 40px 30px;
+ 	}
+ 
+	 #contactForm{
+		flex-direction: column;
+		gap: 20px;
+		padding: 30px;
+		width: 100%;
+	 }
+
+ }
