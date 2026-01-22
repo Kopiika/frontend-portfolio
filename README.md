@@ -45,6 +45,12 @@ Check out the live version of the portfolio hosted on GitHub Pages:
 
 Here are some of the projects showcased in this portfolio:  
 
+- 👤 [hrApp](https://github.com/Kopiika/hrApp)  
+  *React 18, Vite, JSON Server, CSS Modules, Axios, Custom Hooks* – HR App is an application that allows you to view, add, and edit employee information, with all data persisted on a mock backend.
+
+- 🌍 [Find Your Community (Group project)](https://github.com/Nyukaa/AppEvent)  
+  *PHP, WordPress, CSS, HTML JavaScript, React* – A custom WordPress prototype website for discovering communities and events, combining educational content, filtered listings, and detailed presentation pages.
+
 - 🎱 [Magic 8 Ball Simulator](https://github.com/Kopiika/frontend-portfolio/tree/main/projects/magic8ball-simulator)  
   *HTML, CSS, JavaScript* – Interactive Magic 8 Ball with random answers, CSS animations, and DOM manipulation.  
 
