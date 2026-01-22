@@ -83,58 +83,65 @@ Here are some of the projects showcased in this portfolio:
 ## 📂 Project Structure
 ```bash
 frontend-portfolio/
-├── index.html                 # Homepage with Last Projects section
-├── style.css                  # Main stylesheet for homepage layout and themes
-├── reset.css                  # CSS reset to normalize browsers
-├── script.js                  # JavaScript for homepage interactivity
-├── projects-page/             # Folder for the full projects page
-│   ├── projects.html          # Page listing full project portfolio
-│   ├── projects.css           # CSS specific for projects page
-│   └── projects.js            # JS specific for projects page
+├── index.html                 # Homepage of the portfolio
 │
-├── projects/                  # Folder containing individual project folders
-│   ├── bank-atm-simulator/
+├── projects.html               # Projects listing page
+│
+├── css/                       # Additional CSS folder (used for modular styles)
+│   ├── style.css                  # Main stylesheet for homepage
+│   ├── reset.css                  # CSS reset file for cross-browser styling
+│   └── (CSS files here)
+│
+├── js/                        # Additional JS folder (used for modular scripts)
+│   └── (JS files here)
+│
+├── image/                     # Shared image assets
+│   └── (images used across homepage and projects)
+│
+├── projects/                  # Collection of individual project folders
+│   ├── bank-atm-simulator/        # ATM Simulator project
 │   │   ├── index.html
-│   │   ├── style.css          
-│   │   ├── script.js
-│   │   ├── image/             
-│   │   └── README.md
-│   │
-│   ├── flexfest-2025-website/
-│   │   ├── index.html
-│   │   ├── style.css          
-│   │   ├── image/
-│   │   └── README.md
-│   │
-│   ├── little-zoo/
-│   │   ├── index.html
-│   │   ├── style.css          
-│   │   ├── script.js
-│   │   ├── image/
-│   │   └── README.md
-│   │
-│   ├── magic8ball-simulator/  
-│   │   ├── index.html
-│   │   ├── style.css          
+│   │   ├── style.css
 │   │   ├── script.js
 │   │   ├── image/
 │   │   └── README.md
 │   │
-│   ├── newsletter-sign-up-form/
+│   ├── flexfest-2025-website/     # FlexFest 2025 landing page
 │   │   ├── index.html
-│   │   ├── style.css          
+│   │   ├── style.css
+│   │   ├── image/
+│   │   └── README.md
+│   │
+│   ├── little-zoo/                # Little Zoo project
+│   │   ├── index.html
+│   │   ├── style.css
+│   │   ├── script.js
+│   │   ├── image/
+│   │   └── README.md
+│   │
+│   ├── magic8ball-simulator/      # Magic 8 Ball simulator
+│   │   ├── index.html
+│   │   ├── style.css
+│   │   ├── script.js
+│   │   ├── image/
+│   │   └── README.md
+│   │
+│   ├── newsletter-sign-up-form/   # Newsletter sign-up form
+│   │   ├── index.html
+│   │   ├── style.css
 │   │   ├── script.js
 │   │   ├── screenshot.png
 │   │   └── README.md
 │   │
-│   └── web-developer-landing-page/
+│   └── web-developer-landing-page/ # Web Developer landing page
 │       ├── index.html
-│       ├── style.css          
+│       ├── style.css
 │       ├── image/
 │       └── README.md
 │
-├── image/                     # General screenshots and assets for portfolio
-└── README.md                  # Main portfolio documentation
+├── README.md                  # Documentation for the repository
+└── .gitignore                  # Git ignore file
+
 ```
 ---
 
